@@ -12,5 +12,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #089da1;
+    background: #089da1;
+}
+
+.wrapper{
+    width: 420px;
+    background: purple;
 }
