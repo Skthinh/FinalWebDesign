@@ -226,10 +226,15 @@ section .main .main_img img{
 
 .feature_books .featured_book_box .featured_book_card .featured_book_img img{
     width: 150px;
+    border-radius: 10px;
 }
 
 .feature_books .featured_book_box .featured_book_card .featured_book_tag h2{
+    white-space: nowrap;
     margin: 12px;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .feature_books .featured_book_box .featured_book_card .featured_book_tag .writer{
