@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #089da1;
+}
+
+.main_card{
+    width: 550px;
+    height: 600px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    transform: translate(-50% , -50%);
+    padding: 20px 20px 20px 230px;
+    border-radius: 8px;
+}
+
+.main_card h2{
+    color: #000000e9;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.main_card .tag{
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.main_card .price{
+    margin: 25px 0;
+    color: red;
+}
+
+.main_card .price span{
+    font-size: 20px;
+    color: #f40000;
+    margin-left: 20px;
+}
+
+.main_card .select .color{
+    color: #089da1;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main_card .select .anh_minh_hoa{
+    width: 45px;
+    padding: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    transition: 0.3s;
+}
+
+.main_card .select .anh_minh_hoa:hover{
+    border: 1px solid #f40000;
+}
+
+.main_card .detail .heading{
+    font-size: 15px;
+    color: #089da1;
+    margin: 15px 0;
+}
+
+.main_card .detail ul{
+    margin: 6px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_card .btn{
+    width: 200px;
+    height: 50px;
+    background: #f40000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+.main_card .btn:hover{
+    box-shadow: 0 0 8px rgba(10, 186, 213, 0.3);
+}
+
+.small_card{
+    width: 350px;
+    height: 530px;
+    background-image: url(image/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 15px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border-bottom: 5px solid #fff;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.small_card .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small_card .icon i{
+    color: #fff;
+    font-size: 20px;
+}
+
+.small_card .image img{
+    width: 313px;
+    position: relative;
+    top: 10px;
+    right: 1px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image.1/BG_Learnmore.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #089da1;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li{
+    text-decoration: none;
+    color: #000;
+}
+
+section nav li a:hover{
+    color: #089da1;
+}
+
+section nav .social_icon i{
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+section nav .social_icon i:hover{
+    color: #089da1;
+    cursor: pointer;
+}
