@@ -16,5 +16,6 @@ This website is built using the following technologies:
 -  HTML: The structure of the website is built using HTML, providing a semantic and accessible markup.
 -  Tailwind CSS: A utility-first CSS framework is used for styling the website, enabling rapid UI development with pre-defined classes.
 ### Frontend
--  Node.js: The server-side logic is implemented using Node.js, a powerful and flexible JavaScript runtime.
+-  Node.js:
+   - The server-side logic is implemented using Node.js, a powerful and flexible JavaScript runtime.
    - It handles user authentication, database interactions, and serves the frontend assets.
