@@ -28,3 +28,8 @@ This website is built using the following technologies:
 
 ## Our Production
  [Production](https://github.com/Skthinh/FinalWebDesign/edit/main/README.md)
+
+## Planning
+[Wireframe](https://www.figma.com/design/CaQzi3w93uKhPDqbDrrbpV/Book-Store?node-id=0-1&t=6VGGmWXHCQepbn1W-0)
+[Planning]
+[Task]
