@@ -42,6 +42,9 @@ section nav li{
     text-decoration: none;
     color: #000;
 }
+section nav li a{
+    text-decoration: none;
+}
 section nav li a:hover{
     color: #089da1;
 }
@@ -200,9 +203,24 @@ section .main .main_img img{
     box-shadow: 0 0 5px #089da1;
 
 }
+.feature_books .featured_book_box .featured_book_card .featured_book_img{
+    width: 150px;
+    height: 220px;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 10px;
+}
 .feature_books .featured_book_box .featured_book_card .featured_book_img img{
     width: 150px;
+    object-fit: cover;
+    object-position: center;
     border-radius: 10px;
+    transition: 0.3s;
+}
+.feature_books .featured_book_box .featured_book_card:hover .featured_book_img img{
+    transform: scale(1.05);
 }
 .feature_books .featured_book_box .featured_book_card .featured_book_tag h2{
     white-space: nowrap;
@@ -317,13 +335,13 @@ section .main .main_img img{
 .reviews {
     width: 100%;
     height: auto;
-    margin-top: 200px;
+    margin-top: 0 auto;
 }
 .reviews h1 {
     text-align: center;
     font-size: 50px;
-    margin-top: 55px;
-    margin-bottom: 50px;
+    margin-top: 300px;
+    margin-bottom: 80px;
 }
 .reviews .review_box {
     width: 95%;
