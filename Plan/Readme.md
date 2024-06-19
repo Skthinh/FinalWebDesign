@@ -6,6 +6,7 @@
                 <th class="border border-gray-400 bg-purple-200 px-4 py-2"><b>Week</b></th>
                 <th class="border border-gray-400 bg-purple-200 px-4 py-2"><b>Task</b></th>
                 <th class="border border-gray-400 bg-purple-200 px-4 py-2"><b>Detail</b></th>
+                <th class="border border-gray-400 bg-purple-200 px-4 py-2"><b>Image</b></th>
                 <th class="border border-gray-400 bg-purple-200 px-4 py-2"><b>Process</b></th>
                 <th class="border border-gray-400 bg-purple-200 px-4 py-2"><b>Assign to<b></th>
             </tr>
