@@ -38,3 +38,8 @@ This website is built using the following technologies:
 - Clone the repository:
   ```bash
   git clone https://github.com/Skthinh/FinalWebDesign
+
+## Contributors
+1. Tran Dang Hai Quan (Member)
+2. Iả lên đầu <=3
+3. Nguyen Xuan Phuoc Thinh (Leader)
