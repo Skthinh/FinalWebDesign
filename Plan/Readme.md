@@ -17,6 +17,7 @@
                 <td class="border border-gray-400 px-4 py-2" rowspan="13">Week 1</td>
                 <td class="border border-gray-400 px-4 py-2">Create Wireframe</td>
                 <td class="border border-gray-400 px-4 py-2"></td>
+                <td class="border border-gray-400 px-4 py-2"></td>
                 <td class="border border-gray-400 px-4 py-2">Done</td>
                 <td class="border border-gray-400 px-4 py-2">HaiQuan&PhuocThinh</td>
             </tr>
