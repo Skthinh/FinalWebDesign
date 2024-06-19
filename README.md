@@ -37,4 +37,4 @@ This website is built using the following technologies:
 ## Installation
 - Clone the repository:
   ```bash
-  git clone https://github.com/Skthinh/FinalWebDesign.git
+  git clone [https://github.com/Skthinh/FinalWebDesign.git](https://github.com/Skthinh/FinalWebDesign)
