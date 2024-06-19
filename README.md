@@ -41,4 +41,8 @@ This website is built using the following technologies:
 
 ## Contributors
 1. Tran Dang Hai Quan (Member)
-3. Nguyen Xuan Phuoc Thinh (Leader)
+2. Nguyen Xuan Phuoc Thinh (Leader)
+
+### Contact
+* Email: quan.tran220401@vnuk.edu.vn
+* Email: thinh.nguyen220209@vnuk.edu.vn
