@@ -33,3 +33,8 @@ This website is built using the following technologies:
 - [Wireframe](https://www.figma.com/design/CaQzi3w93uKhPDqbDrrbpV/Book-Store?node-id=0-1&t=6VGGmWXHCQepbn1W-0)
 - [Planning](Plan/Readme.md)
 - [Task](Plan/Task/readme.md)
+
+## Installation
+- Clone the repository:
+  ```bash
+  git clone https://github.com/Skthinh/FinalWebDesign.git
