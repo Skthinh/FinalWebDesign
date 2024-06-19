@@ -12,14 +12,14 @@ body {
     align-items: center;
     min-height: 100vh;
     backdrop-filter: blur(5px);
-    background: url('image/login.jpg') no-repeat;
+    background: url('image/bg1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 .wrapper{
     width: 420px;
     background: transparent;
-    border: 4px solid rgba(255, 255, 255, .2);
+    border: 4px solid #089da1;
     backdrop-filter: blur(40px);
 
     color: #089da1;
@@ -42,7 +42,7 @@ body {
     background:transparent;
     border: none;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid #089da1;
     border-radius: 40px;
     font-size: 16px;
     color: #089da1;

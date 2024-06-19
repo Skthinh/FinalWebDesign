@@ -148,6 +148,9 @@ section nav li{
     text-decoration: none;
     color: #000;
 }
+section nav li a{
+    text-decoration: none;
+}
 section nav li a:hover{
     color: #089da1;
 }

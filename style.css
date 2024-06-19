@@ -33,10 +33,14 @@ section nav .logo img{
 }
 section nav ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 section nav li{
-    display: inline-block;
+    margin: 0;
     padding: 0 10px;
+    white-space: nowrap;
 }
 section nav li{
     text-decoration: none;
@@ -48,11 +52,17 @@ section nav li a{
 section nav li a:hover{
     color: #089da1;
 }
-section nav .social_icon i{
-    margin: 0 5px;
-    font-size: 18px;
+section nav .social_icon {
+    display: flex;
+    align-items: center;
 }
-section nav .social_icon i:hover{
+section nav .social_icon a {
+    margin: 0 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+section nav .social_icon a:hover{
     color: #089da1;
     cursor: pointer;
 }
@@ -85,7 +95,7 @@ section .main .main_tag .main_btn{
     padding: 10px 20px;
     position: relative;
     top: 200px;
-    left: 25px;
+    left: 10vw;
     color: #fff;
     text-decoration: none;
 }
@@ -360,13 +370,15 @@ section .main .main_img img{
 }
 .reviews .review_box .review_card i{
     float: right;
-    font-size: 120px;
+    font-size: 7vw;
     position: relative;
     bottom: 20px;
     color: #eaeaea;
+    min-width: 10px;
 }
 .reviews .review_box .review_card .card_top img{
-    width: 80px;
+    width: 5vw;
+    min-width: 40px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
@@ -375,12 +387,31 @@ section .main .main_img img{
     text-align: justify;
     line-height: 22px;
 }
+.reviews .review_box .review_card .card a {
+    text-decoration: none;
+    float: right;
+    position: relative;
+    text-align: right;
+    bottom: 20px;
+    color: #000;
+    margin-top: 1.5vw;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+   
+}
+.reviews .review_box .review_card .card a:hover{
+    color: #4400ff; 
+}
+.reviews .review_box .review_card .card .review_icon {
+    display: flex;
+    align-items: center;
+}
 .reviews .review_box .review_card .card .review_icon i {
     font-size: 16px;
     float: left;
     margin-top: 20px;
     color: #089da1;
     padding: 0 1px;
+    margin-top: 3.5vw;
 }
 
 /*Banner*/
@@ -497,6 +528,7 @@ footer .footer_main .tag i{
 }
 footer .footer_main .social_link i{
     margin: 0 5px;
+    display: grid;
 }
 footer .footer_main .tag .search_bar{
     width: 230px;
