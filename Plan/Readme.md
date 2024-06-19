@@ -6,17 +6,17 @@
     Create an online bookstore where users can browse, search, and purchase books.
 
 - ### Functional Requirements:
-    -- User authentication (signup, login, logout)
-    -- Browse books by category, author, or title
-    -- Introdution Page (About Us)
-    -- Book details page
-    -- Shopping cart    
+    - User authentication (signup, login, logout)
+    - Browse books by category, author, or title
+    - Introdution Page (About Us)
+    - Book details page
+    - Shopping cart    
 
 - ### Technology Stack
-    -- Front-end: 'HTML, CSS, JavaScript'
-    -- Back-end: 'PHP or Node.js'
-    -- Database: 'MySQL'
-    -- Hosting: 'Apache'
+    - Front-end: 'HTML, CSS, JavaScript'
+    - Back-end: 'PHP or Node.js'
+    - Database: 'MySQL'
+    - Hosting: 'Apache'
 
 - ### Front-End Development
     - #### Design the Layout
