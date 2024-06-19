@@ -21,11 +21,11 @@
             </tr>
             <tr>
                 <td class="border border-gray-400 px-4 py-2" rowspan="2">Set up</td>
-                <td class="border border-gray-400 px-4 py-2">Setup NPM and Vite</td>
+                <td class="border border-gray-400 px-4 py-2">Build HTML & CSS</td>
                 <td class="border border-gray-400 px-4 py-2"></td>
                 <td class="border border-gray-400 px-4 py-2"></td>
                 <td class="border border-gray-400 px-4 py-2">Done</td>
-                <td class="border border-gray-400 px-4 py-2">Thu Huong</td>
+                <td class="border border-gray-400 px-4 py-2">HaiQuan</td>
             </tr>
             <tr>
                 <td class="border border-gray-400 px-4 py-2">Setup Tailwind CSS</td>
