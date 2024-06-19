@@ -41,5 +41,4 @@ This website is built using the following technologies:
 
 ## Contributors
 1. Tran Dang Hai Quan (Member)
-2. Iả lên đầu <=3
 3. Nguyen Xuan Phuoc Thinh (Leader)
