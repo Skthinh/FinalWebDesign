@@ -10,15 +10,11 @@
 </head>
 
 <body>
-
     <section>
-
         <nav>
-
             <div class="logo">
                 <img src="image/logo.png">
             </div>
-
             <ul>
                 <li><a href="main_page.html#Home">Home</a></li>
                 <li><a href="main_page.html#About">About</a></li>
@@ -27,57 +23,42 @@
                 <li><a href="main_page.html#Reviews">Reviews</a></li>
                 <li><a href="main_page.html#Blog">Blog</a></li>
             </ul>
-
-            <div class="social_icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-heart"></i>
+            <div class="social_icon">     
+                <a href="Searching.html"  class="fa-solid fa-magnifying-glass"> </a>
+                <a href="Favourite.html"  class="fa-solid fa-heart"> </a>
             </div>
-
         </nav>
     </section>    
-
     <div class="main_card">
         <h2>The Wright Brothers</h2>
         <p class="tag">Featured Book</p>
         <p class="price">Price:<span>149.000VND</span><sub><del>200k</del></sub></p>
-
         <div class="select">
-
             <p class="color">Tiltle</p>
-
-            <img src="image/arrival_2.jpg" class="anh_minh_hoa">
-            <img src="image.1/CBCV.png" class="anh_minh_hoa">
-
+            <img id="clickable-thumbnail1" src="image/arrival_2.jpg" class="anh_minh_hoa">
+            <img id="clickable-thumbnail" src="image.1/CBCV_1.png" class="anh_minh_hoa">
         </div>
-
         <div class="detail">
-
             <p class="heading">REVIEW</p>
-
             <ul>
                 The Wright Brothers is a biographical history of Orville and Wilbur Wright following their
                 lives and developments that led them to flight and beyond. McCullough begins by investigating
                 their personal history and development from childhood to adulthood, describing the influences
                 of their father and family.
             </ul>
-            
-
         </div>
-
         <a href="#" class="btn">Add To Cart</a>
     </div>
-
     <div class="small_card">
-
         <div class="icon">
             <i class="fa-solid fa-share"></i>
             <i class="fa-regular fa-heart"></i>
         </div>
 
-    <div class="image">
-        <img src="image/arrival_2.jpg">
+        <div class="image">
+            <img id='clickable-image' src="image/arrival_2.jpg">
+        </div>
     </div>
-    </div>
-
+    <script src="JS/image_change.js"></script>
 </body>
 </html>
