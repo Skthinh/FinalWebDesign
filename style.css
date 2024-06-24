@@ -66,6 +66,7 @@ section nav .social_icon a:hover{
     color: #089da1;
     cursor: pointer;
 }
+
 section .main{
     display: flex;
     align-items: center;
