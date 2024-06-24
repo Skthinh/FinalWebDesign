@@ -23,9 +23,9 @@
                 <li><a href="main_page.html#Reviews">Reviews</a></li>
                 <li><a href="main_page.html#Blog">Blog</a></li>
             </ul>
-            <div class="social_icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-heart"></i>
+            <div class="social_icon">     
+                <a href="Searching.html"  class="fa-solid fa-magnifying-glass"> </a>
+                <a href="Favourite.html"  class="fa-solid fa-heart"> </a>
             </div>
         </nav>
     </section>    
@@ -35,8 +35,8 @@
         <p class="price">Price:<span>119.000VND</span><sub><del>139k</del></sub></p>
         <div class="select">
             <p class="color">Tiltle</p>
-            <img src="image/book_1.jpg" class="anh_minh_hoa">
-            <img src="image.1/CBCV.png" class="anh_minh_hoa">
+            <img id="clickable-thumbnail1" src="image/book_1.jpg" class="anh_minh_hoa">
+            <img id="clickable-thumbnail" src="image.1/CBCV.png" class="anh_minh_hoa">
         </div>
         <div class="detail">
             <p class="heading">REVIEW</p>
@@ -54,10 +54,11 @@
             <i class="fa-solid fa-share"></i>
             <i class="fa-regular fa-heart"></i>
         </div>
-        <div class="image">
-        <img src="image/book_1.jpg">
-        </div>
+            <div class="image">
+                <img id='clickable-image' src="image/book_1.jpg">
+            </div>
     </div>
+
 
      <!--Footer-->
 
@@ -109,6 +110,9 @@
             TQ WEB TEAM(2024)</span></p>
     </footer>
 
+
+
+    <script src="JS/image_change.js"></script>
 
 </body>
 </html>
