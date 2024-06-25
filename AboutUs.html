@@ -20,7 +20,7 @@
                 <img src="image/logo.png">
             </div>
 
-            <ul>
+            <ul id="MenuItems">
                 <li><a href="index.html#Home">Home</a></li>
                 <li><a href="index.html#About">About</a></li>
                 <li><a href="index.html#Featured">Featured</a></li>
@@ -33,6 +33,7 @@
                 <a href="Searching.html"  class="fa-solid fa-magnifying-glass"></a>
                 <a href="Favourite.html"  class="fa-solid fa-heart"> </a>
             </div>
+            <img src="image.2/menu.png" class="menu-icon" onclick="menutoggle()">
 
         </nav>
 
@@ -164,6 +165,25 @@
         <p class="end">Design By<span><i class="fa-solid fa-face-grin"></i> 
             TQ WEB TEAM(2024)</span></p>
     </footer>
+
+    <!-----js for toggle menu----->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }    
+        
+    </script>
     
 </body>
 </html>
