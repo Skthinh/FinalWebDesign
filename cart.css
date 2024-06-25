@@ -166,9 +166,53 @@ footer .end span{
 /*----cart items-----*/
 
 .cart-page{
-    margin: 80px auto;
+    margin: 80px ;  
 }
 table{
     width: 100%;
     border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: nowrap;
+}    
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #089da1;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    width: 100px;
+    height: 120px;
+    margin-right: 10px;
+}
+.total-price{
+    margin: 80px ;
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid #089da1;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
 }
