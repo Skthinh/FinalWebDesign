@@ -8,3 +8,6 @@ document.getElementById('clickable-thumbnail1').addEventListener('click', functi
     const smallCardImage = document.getElementById('clickable-image');
     smallCardImage.src = clickedImageSrc;
 });
+document.getElementById('add-cart').addEventListener('click', function() {
+    alert("Your chosen product has been added to cart")
+});

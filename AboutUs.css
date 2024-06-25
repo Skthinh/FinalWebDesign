@@ -154,7 +154,14 @@ section .main .main_img img{
     background-size: cover;
     background-position: center;
 }
-
+@keyframes inout {
+    0%,100%{
+        transform:scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
 .about .about_main{
     display: flex;
     align-items: center;
@@ -221,8 +228,17 @@ section .main .main_img img{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image.2/Banner.png);
     background-size: cover;
     background-position: center;
+    animation: inout 5s infinite;
+    overflow: hidden;
 }
-
+@keyframes inout {
+    0%,100%{
+        transform:scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
 .banner_bg h1{
     display: flex;
     align-items: center;
