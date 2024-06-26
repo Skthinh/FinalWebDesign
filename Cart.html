@@ -27,15 +27,12 @@
                 <a href="Favourite.html" ><i  class="fa-solid fa-heart"></i> </a>
             </div>
             <img src="image.2/menu.png" class="menu-icon" onclick="menutoggle()">
-
         </nav>
 
         <!--Banner-->
 
         <div class="banner_bg">
-
             <h1><span>Your Cart</span></h1>
-
         </div>
         
     <!--- cart items details--->
@@ -52,76 +49,66 @@
                     <td>
                         <div class="cart-info">
                             <img src="image/book_1.jpg">
-                        <div>
-                            <p>Red Printed Tshirt</p>
-                            <small>Price: $50.00</small>
-                            <br>
-                            <a href="">Remove</a>
-                        </div>
+                            <div>
+                                <p>Chiến binh cầu vồng</p>
+                                <small>Price: $50.00</small>
+                                <br>
+                                <a href="" class="remove">Remove</a>
+                            </div>
                         </div>
                     </td>
-                    <td><input type ="number" value="1"></td>
-                    <td>50$</td>
+                    <td><input type ="number" value="1" min="1" class="quantity"></td>
+                    <td class="subtotal">50$</td>
                 </tr>
-
                 <tr>
                     <td>
                         <div class="cart-info">
                             <img src="image/book_2.png">
                         <div>
-                            <p>Red Printed Tshirt</p>
+                            <p>Ông già trèo qua ...</p>
                             <small>Price: $50.00</small>
                             <br>
-                            <a href="">Remove</a>
+                            <a href="" class="remove">Remove</a>
                         </div>
                         </div>
                     </td>
-                    <td><input type ="number" value="1"></td>
-                    <td>50$</td>
+                    <td><input type ="number" value="1" min="1" class="quantity"></td>
+                    <td class="subtotal">50$</td>
                 </tr>
-
                 <tr>
                     <td>
                         <div class="cart-info">
                             <img src="image/book_3.jpg">
                         <div>
-                            <p>Red Printed Tshirt</p>
+                            <p>Sự im lặng của ....</p>
                             <small>Price: $50.00</small>
                             <br>
-                            <a href="">Remove</a>
+                            <a href="" class="remove">Remove</a>
                         </div>
                         </div>
                     </td>
-                    <td><input type ="number" value="1"></td>
-                    <td>50$</td>
+                    <td><input type ="number" value="1" min="1" class="quantity"></td>
+                    <td class="subtotal">50$</td>
                 </tr>
-
-
             </table>
         </div>
-
     </section>
-
         <div class="total-price">
-
             <table>
                 <tr>
                     <td>Subtotal</td>
-                    <td>150$</td>
+                    <td id="subtotal">150$</td>
                 </tr>
                 <tr>
                     <td>Tax</td>
-                    <td>3.00$</td>
+                    <td id="tax">3.00$</td>
                 </tr>
                 <tr>
                     <td>Total</td>
-                    <td>153$</td>
+                    <td id="total">153$</td>
                 </tr>
             </table>
-
         </div>
-
-
     
     <!--Footer-->
 
@@ -174,23 +161,7 @@
     </footer>
 
     <!-----js for toggle menu----->
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-
-        MenuItems.style.maxHeight = "0px";
-
-        function menutoggle(){
-            if(MenuItems.style.maxHeight == "0px")
-                {
-                    MenuItems.style.maxHeight = "200px";
-                }
-            else
-                {
-                    MenuItems.style.maxHeight = "0px";
-                }
-        }    
-        
-    </script>
+    <script src="JS/cart.js"> </script>
     
 </body>
 </html>
