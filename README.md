@@ -19,8 +19,8 @@ This website is built using the following technologies:
 ### Frontend
 -  #### HTML:
    - `The structure of the website is built using HTML, providing a semantic and accessible markup.`
--  #### Tailwind CSS:
-   -  `A utility-first CSS framework is used for styling the website, enabling rapid UI development with pre-defined classes.`
+-  #### CSS:
+   - `Enhances the look and feel of web pages by allowing you to control the layout, colors, fonts, and other visual aspects of the web elements.`
 ### Frontend
 -  ##### Node.js:
    - `The server-side logic is implemented using Node.js, a powerful and flexible JavaScript runtime.`
@@ -33,12 +33,16 @@ This website is built using the following technologies:
 - [Wireframe](https://www.figma.com/design/CaQzi3w93uKhPDqbDrrbpV/Book-Store?node-id=0-1&t=6VGGmWXHCQepbn1W-0)
 - [Planning](Plan/Readme.md)
 - [Task](Plan/Task/readme.md)
-
+- [Database](https://dbdiagram.io/d/Book-Store-667d2f599939893dae6aa4a8)
 ## Installation
 - Clone the repository:
   ```bash
   git clone https://github.com/Skthinh/FinalWebDesign
-
+- Implement Node.js and HTTP server:
+  ```bash
+  npm install -g http-server
+  npm install vite --save-dev
+  npm run dev
 ## Contributors
 1. Tran Dang Hai Quan (Member)
 2. Nguyen Xuan Phuoc Thinh (Leader)
