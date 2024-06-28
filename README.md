@@ -21,7 +21,7 @@ This website is built using the following technologies:
    - `The structure of the website is built using HTML, providing a semantic and accessible markup.`
 -  #### CSS:
    - `Enhances the look and feel of web pages by allowing you to control the layout, colors, fonts, and other visual aspects of the web elements.`
-### Frontend
+### Backend
 -  ##### Node.js:
    - `The server-side logic is implemented using Node.js, a powerful and flexible JavaScript runtime.`
    - `It handles user authentication, database interactions, and serves the frontend assets.`
