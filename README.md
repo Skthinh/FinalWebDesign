@@ -34,6 +34,7 @@ This website is built using the following technologies:
 - [Planning](Plan/Readme.md)
 - [Task](Plan/Task/readme.md)
 - [Database](https://dbdiagram.io/d/Book-Store-667d2f599939893dae6aa4a8)
+- [Screenshoot](Plan/Screenshoot/Readme.md)
 ## Installation
 - Clone the repository:
   ```bash
